@@ -1,9 +1,101 @@
+<!DOCTYPE html>
 <html>
-
-<body>
-  <h1>Code By Nath</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
-
-</html>
+  <head>
+    <!-- Table Cheat Sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400; 600; 800&display=swap" rel="stylesheet">
+    <title>HTML Tag Sheet</title>
+  </head>
+  <body>
+    <section class="heading container">
+      <h1>HTML Tags Overview</h1>
+    </section>
+    <section class="table-basic-html-tags container">
+      <h2>Basic HTML Tags</h2>
+      <table>
+        <thead class="table-heading">
+          <tr>
+            <th calss="col">Tag</th>
+            <th calss="col">Name</th>
+            <th calss="col">Description</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr class="table-sections">
+            <td>&lt;html&gt;</td>
+            <td>HTML</td>
+            <td>The root element that defines the entire HTML document. All other HTML elements are nested within this tag.</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;head&gt;</td>
+            <td>Head</td>
+            <td>Contains meta-information about the HTML document, such as the title and links to CSS or JavaScript files.</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;body&gt;</td>
+            <td>Body</td>
+            <td>Defines the content of the HTML document that is displayed in the browser (e.g., text, images, links).</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="text-formatting-tags container">
+      <h2>Text Formatting Tags</h2>
+      <table>
+        <thead class="table-heading">
+          <tr>
+            <th calss="col">Tag</th>
+            <th calss="col">Name</th>
+            <th calss="col">Description</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr class="table-sections">
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+            <td>Defines a paragraph of text. It is a block-level element that adds space before and after the text.</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;strong&gt;</td>
+            <td>Strong</td>
+            <td>Makes the enclosed text bold and adds semantic importance (used for important text).</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;em&gt;</td>
+            <td>Emphasis</td>
+            <td>Emphasizes text by italicizing it, usually indicating a change in tone or importance.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="link-and-media-tags container">
+      <h2>Link and Media Tags</h2>
+      <table>
+        <thead class="table-heading">
+          <tr>
+            <th calss="col">Tag</th>
+            <th calss="col">Name</th>
+            <th calss="col">Description</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr class="table-sections">
+            <td>&lt;a&gt;</td>
+            <td>Anchor</td>
+            <td>Defines a hyperlink, which links to another webpage or a specific section on the same page. The <em>href</em> attribute specifies the link destination.</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;img&gt;</td>
+            <td>Image</td>
+            <td>Embeds an image into the webpage. The <em>src</em> attribute specifies the image source, and <em>alt</em> provides alternative text for accessibility.</td>
+          </tr>
+          <tr class="table-sections">
+            <td>&lt;audio&gt;</td>
+            <td>Audio</td>
+            <td>Embeds audio content. The <em>controls</em> attribute can be added to show audio controls like play, pause, and volume.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>  
+  </body>
+  </html>
